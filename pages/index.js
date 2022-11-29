@@ -19,7 +19,6 @@ export default function Home() {
 
   const prefixImgUrl = 'https://api.fifa.com/api/v3/picture/flags-sq-3/';
 
-  console.log({currentMatch, nextMatch, completedMatch, hasLiveMatch, error});
 
   if(error){
     return <div className="bg-black h-screen w-screen flex items-center justify-center">
