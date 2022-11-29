@@ -34,7 +34,7 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-black w-full min-h-screen h-full">
+    <div className="bg-black w-full min-h-screen h-full px-6">
       <div className="text-center p-8 space-y-4">
         <h1 className="text-6xl font-bold tracking-wide">FIFA World Cup Qatar 2022</h1>
         <p className="text-xl">FIFA World Cup Qatar 2022 Schedules</p>
